@@ -87,7 +87,7 @@ module.exports = function SkipperS3(globalOpts) {
 
       co(store.delete(fd))
         .then(function (result) {
-          if (result.status == 200) {
+          if (result.status >= 200 && result.status < 300) {
             cb();
           } else {
             cb({
