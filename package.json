@@ -1,5 +1,5 @@
 {
-  "name": "@walkthechat/skipper-aliyunoss",
+  "name": "@pipi32167/skipper-aliyunoss",
   "version": "0.1.2",
   "description": "Streaming file uploads to Aliyun OSS",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/WalktheChat/skipper-aliyunoss.git"
+    "url": "git://github.com/pipi32167/skipper-aliyunoss.git"
   },
   "keywords": [
     "aliyun",
@@ -20,12 +20,12 @@
     "sails",
     "express"
   ],
-  "author": "Mike McNeil // Qiong Wu",
+  "author": "Mike McNeil // Qiong Wu // Million Young",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WalktheChat/skipper-aliyunoss/issues"
+    "url": "https://github.com/pipi32167/skipper-aliyunoss/issues"
   },
-  "homepage": "https://github.com/WalktheChat/skipper-aliyunoss",
+  "homepage": "https://github.com/pipi32167/skipper-aliyunoss",
   "devDependencies": {
     "skipper-adapter-tests": "~1.5.8"
   },
