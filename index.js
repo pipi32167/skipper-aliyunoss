@@ -160,7 +160,7 @@ module.exports = function SkipperS3(globalOpts) {
         secure: true
       });
 
-      var mimeType = headers['content-type'] || mime.lookup(__newFile.fd);
+      var mimeType = headers['content-type'] || mime.getType(__newFile.fd);
 
       co(store.putStream(__newFile.fd, __newFile, {mime: mimeType}))
         .then(function (result) {
