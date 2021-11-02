@@ -1,6 +1,6 @@
 {
   "name": "@pipi32167/skipper-aliyunoss",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Streaming file uploads to Aliyun OSS",
   "main": "index.js",
   "scripts": {
