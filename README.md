@@ -1,6 +1,6 @@
 # [<img title="skipper-s3 - S3 adapter for Skipper" src="http://i.imgur.com/P6gptnI.png" width="200px" alt="skipper emblem - face of a ship's captain"/>](https://github.com/balderdashy/skipper-s3) Aliyun OSS Blob Adapter
 
-[![NPM version](https://badge.fury.io/js/%40walkthechat%2Fskipper-aliyunoss.png)](https://badge.fury.io/js/%40walkthechat%2Fskipper-aliyunoss) &nbsp; &nbsp;
+[![NPM version](https://badge.fury.io/js/%40pipi32167%2Fskipper-aliyunoss.png)](https://badge.fury.io/js/%40pipi32167%2Fskipper-aliyunoss) &nbsp; &nbsp;
 
 Aliyun OSS adapter for receiving [upstreams](https://github.com/balderdashy/skipper#what-are-upstreams). Particularly useful for handling streaming multipart file uploads from the [Skipper](https://github.com/balderdashy/skipper) body parser.
 
@@ -8,7 +8,7 @@ Aliyun OSS adapter for receiving [upstreams](https://github.com/balderdashy/skip
 ## Installation
 
 ```
-$ npm install @walkthechat/skipper-aliyunoss --save
+$ npm install @pipi32167/skipper-aliyunoss --save
 ```
 
 Also make sure you have skipper itself [installed as your body parser](http://beta.sailsjs.org/#/documentation/concepts/Middleware?q=adding-or-overriding-http-middleware).  This is the default configuration in [Sails](https://github.com/balderdashy/sails) as of v0.10.
